@@ -21,7 +21,7 @@ const AddTodoForm = () => {
         value={value}
         onChange={(e) => setValue(e.target.value)}
       />
-      <button type="submit">Submit</button>
+      <button className="btn-default" type="submit">Submit</button>
     </form>
   );
 };

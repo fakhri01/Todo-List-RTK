@@ -7,15 +7,44 @@
   flex: 2;
   text-align: right;
 }
-
-button {
-  font-size: calc(10px + 2vmin);
-  cursor: pointer;
+.btn-default{
+  background-color: #598DEF;
+}
+.btn-dangerous{
+  background-color: red;
 }
 
+button {
+  color: #fff;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  letter-spacing: 1px;
+  border: none;
+  padding: 0.5rem 1rem;
+}
+
+h2{
+  margin-top: 5rem;
+}
+
+/* AddTodo Form */
+form{
+  width: 500px;
+  margin: 3rem auto;
+  display: flex;
+}
+form input{
+  flex: 2;
+  border: none;
+  border-bottom: 1px solid black;
+  outline: none;
+}
+
+/* TodoList */
 ul{
   max-width: 500px;
-  margin: 100px auto;
+  margin: 0 auto 3rem;
 }
 
 li{

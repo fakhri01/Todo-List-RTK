@@ -22,7 +22,7 @@ const TodoItem = ({ id, title, completed }) => {
       />
       <label>{title}</label>
       <div className="btn-wrapper">
-        <button onClick={handleDeleteClick}>Delete</button>
+        <button className="btn-dangerous" onClick={handleDeleteClick}>Delete</button>
       </div>
     </li>
   );
